@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Ferdian - Frontend Engineer</title>
     <style>
         * {
             font-family: "Plus Jakarta Sans", sans-serif;
@@ -115,6 +115,33 @@ background-color: #131221;
             color: white;
             text-align: center;
             margin-top: 20px;
+        }
+        .company-name {
+            color: white;
+            font-size: 32px;
+            margin: 12px 0;
+        }
+        .experience-card {
+            padding: 20px;
+            border: .5px solid darkmagenta;
+            border-radius: 20px;
+        }
+        footer {
+            margin-top: 32px;
+            width: 100%;
+            background-color: #23213b;
+            padding: 12px 120px;
+        }
+        footer h1 {
+            color: white;
+            font-size: 16px;
+        }
+        .social {
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 20px;
         }
     </style>
   </head>
@@ -253,10 +280,33 @@ background-color: #131221;
             <div class="row">
                 <h1 class="fw-bold text-light title-about projects">My <span class="text-warning">Experience</span></h1>
             </div>
-            <div class="row d-flex align-items-center">
-                
+            <div class="row">
+                <div class="col">
+                    <div class="experience-card">
+                        <img src="assets/dipainhouse.webp" alt="" width="128">
+                        <h2 class="company-name fw-bold fs-4">Dipa Inhouse</h2>
+                        <p class="subgreeting">Create and build company and client websites with any services, such as web company profile, web recruitment, product service, complete with integration api, third party library like HubSpot, emailjs and MailChimp and also create schema form validation. added animation with framer motion and gsap. built with both CSR and SSR mechanism. Optimize image and component for better user experience</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="experience-card">
+                        <img src="assets/smeshub.webp" alt="" width="128">
+                        <h2 class="company-name fw-bold fs-4">Smeshub Indonesia</h2>
+                        <p class="subgreeting">Frontend using Next.js, Tailwind CSS, TypeScript and Library like Formik and AxiosCreate custom component Modal, Dropdown and PopoverFixing Bugs in some parts such in Dashboard, Home or FormImplement Server Side Rendering for optimizing Data FetchingHelp Backend for maintain Codebase like API Response and Data ValidationImplement Multi Step Form in every user create a new gigs or service</p>
+                    </div>
+                </div>
             </div>
             </div>
+
+            <footer class="container-fluid">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <h1 class="fw-bold copy">&copy;2024 ferdianarid</h1>
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="https://www.linkedin.com/in/ferdianar/" class="social">Linkedin</a>
+                    <a href="https://www.instagram.com/ferdianarid/" class="social">Instagram</a>
+                </div>
+                </div>
+            </footer>
     
 
     <!-- Optional JavaScript; choose one of the two! -->
