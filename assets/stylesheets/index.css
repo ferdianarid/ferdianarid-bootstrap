@@ -1,0 +1,131 @@
+        * {
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+        body {
+background-color: #131221;
+        }
+        .navbar {
+            background-color: #131221;
+        }
+        .top-banner {
+            background-color: #1f1e2e;
+        }
+        .navbar-brand {
+            font-size: 24;
+            font-weight: bold;
+            color: white;
+        }
+        .hero {
+            width: 100%;
+            padding-top: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .greeting {
+            font-size: 64px;
+            margin-top: 20px;
+        }
+        .subgreeting {
+            font-size: 14px;
+            line-height: 23.1px;
+            color: #6d7689;
+        }
+        .hero-left {
+            width: 50%;
+        }
+        .hero-right {
+            max-width: 460px;
+        }
+        .hero-right img {
+            width: 100%;
+        }
+        .navbar-nav {
+            margin-left: auto;
+        }
+        .stats {
+            border-radius: 24px;
+            margin-top: 64px;
+            padding: 20px 64px;
+        }
+        .count-point {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .title-point {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .about {
+            margin-top: 80px;
+            gap: 120px;
+        }
+        .left-about {
+            width: 50%;
+        }
+        .title-about {
+            font-size: 64px;
+        }
+        .btn-cta {
+            padding: 16px 40px;
+            border-radius: 16px;
+            color: white;
+            background-color: orange;
+        }
+        .card {
+            width: 100%;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card-text {
+            font-size: 14px;
+            margin-top: 5px;
+            margin-bottom: 12px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .projects {
+            margin-top: 80px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        .skill-logo img {
+            width: 70%;
+        }
+        .title-skill {
+            font-weight: bold;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .company-name {
+            color: white;
+            font-size: 32px;
+            margin: 12px 0;
+        }
+        .experience-card {
+            padding: 20px;
+            border: .5px solid darkmagenta;
+            border-radius: 20px;
+        }
+        footer {
+            margin-top: 32px;
+            width: 100%;
+            background-color: #23213b;
+            padding: 12px 120px;
+        }
+        footer h1 {
+            color: white;
+            font-size: 16px;
+        }
+        .social {
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 20px;
+        }
